@@ -10,8 +10,6 @@ env:
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 24a0a1b3-6d1c-4240-930b-86be93df3126
   WEBAPP-NAME: az400-webapp-SOUVIK
-
-
 jobs:
   #Build, test and publish .net web project in repository
   buildandtest:
